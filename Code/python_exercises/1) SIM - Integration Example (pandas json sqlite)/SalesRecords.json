@@ -1,0 +1,61 @@
+{
+"SalesRecords":
+  [
+    { 
+      "_id":"1",
+      "Surname": "Meier",
+      "Firstname": "Herbert",
+      "Product": {
+        "ProductNumber": "0815_23",
+        "Description": "Air Jordan 4 Retro White Midnight Navy",
+        "Version": "4",
+        "Size": 43
+      },
+      "SalesPrice": 23.95,
+      "DeliveryTo": {
+        "Surname": "Meier",
+        "Firstname": "Akif",
+        "Street": "Nibelungenplatz 1",
+        "City": "Frankfurt",
+        "FederalState": "Hessen",
+        "PostalCode": "60318"
+      },
+      "InvoiceTo": {
+        "Surname": "Meier",
+        "Firstname": "Xanthia",
+        "Street": "Am Bornstueck 3a",
+        "City": "Wetzlar",
+        "State": "Hessen",
+        "PostalCode": "35582"
+      }
+    },
+    {
+      "_id":"2",
+      "Surname": "Hayek",
+      "Firstname": "Sally",
+      "Product": {
+        "ProductNumber": "0815_24",
+        "Description": "Bumpy Sneakers - Haydi Edition",
+        "Version": "3",
+        "Size": 37
+      },
+      "SalesPrice": 96.95,
+      "DeliveryTo": {
+        "Surname": "Hayek",
+        "Firstname": "Selma",
+        "Street": "Jugendschild-Platz 12",
+        "City": "Frankfurt",
+        "FederalState": "Hessen",
+        "PostalCode": "60325"
+      },
+      "InvoiceTo": {
+        "Surname": "Hayek",
+        "Firstname": "Urdug",
+        "Street": "Am Bornstueck 12",
+        "City": "Giessen",
+        "State": "Hessen",
+        "PostalCode": "33882"
+      }
+    }
+  ]
+}

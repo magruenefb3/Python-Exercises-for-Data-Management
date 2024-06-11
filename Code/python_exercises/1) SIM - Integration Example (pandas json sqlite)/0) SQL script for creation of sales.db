@@ -1,0 +1,36 @@
+# sales.db script for SQLite3
+
+-- First create a database with the following command
+-- .open .\sales.db
+
+CREATE TABLE customer (
+	custId INTEGER PRIMARY KEY, 
+	custFirst_name TEXT NOT NULL,
+	custLast_name TEXT NOT NULL,
+	custEmail TEXT NOT NULL,
+	custPhone TEXT
+);
+
+CREATE TABLE account (
+    accNumber TEXT PRIMARY KEY,
+	accBalance REAL NOT NULL,
+	accHolderId INTEGER -- points to custId
+);
+
+INSERT INTO customer 
+VALUES 
+(1, 'Herber', 'Meier', 'h.meier@mail.co.uk', '+44 1 4543543988'), -- attention name wrong
+(2, 'Sally', 'Hayek', 'supersally@protomail.com', '+69 69 333 3331')
+;       
+
+INSERT INTO account 
+VALUES 
+('GB29NWBK60161331926819', -300.94, 1), 
+('DE89370400440532013000', 120.78, 2)
+;     
+
+-- check if all tables are created
+-- .tables
+
+-- testing the database with a join
+select * from customer join account on (customer.custId = account.accHolderId);

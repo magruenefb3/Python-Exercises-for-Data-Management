@@ -1,0 +1,27 @@
+{
+  "Nachname": "Meier",
+  "Vorname": "Herbert",
+  "Produkt": {
+    "Produktnummer": "0815_23",
+    "Bezeichnung": "Air Jordan 4 Retro White Midnight Navy",
+    "Version": "4",
+    "Groesse": 43
+  },
+  "Preis": 23.95,
+  "LieferungAn": {
+    "Nachname": "Meier",
+    "Vorname": "Akif",
+    "Strasse": "Nibelungenplatz 1",
+    "Stadt": "Frankfurt",
+    "Bundesland": "Hessen",
+    "Postleitzahl": "60318"
+  },
+  "RechnungAn": {
+    "Name": "Meier",
+    "Vorname": "Xanthia",
+    "Strasse": "Am Bornstueck 3a",
+    "Stadt": "Wetzlar",
+    "Bundesland": "Hessen",
+    "Postleitzahl": "35582"
+  }
+}
